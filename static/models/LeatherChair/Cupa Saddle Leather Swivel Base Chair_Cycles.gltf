@@ -1,0 +1,305 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Backrest.002"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Chair_Base"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Seat.003"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Brown Leather cy",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.800000011920929
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.40454545617103577
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Gold cy",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.1,
+                    0.1,
+                    0.1,
+                    1
+                ],
+                "roughnessFactor" : 0.1
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.067",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Circle.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Cube.066",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Chair_Leather_Normal",
+            "uri" : "Chair_Leather_Normal.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Chair_Leather_Diffuse",
+            "uri" : "Chair_Leather_Diffuse.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 36511,
+            "max" : [
+                0.40106505155563354,
+                0.792903482913971,
+                0.38456666469573975
+            ],
+            "min" : [
+                -0.4010787606239319,
+                0.2754087448120117,
+                -0.39603880047798157
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 36511,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 36511,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 183624,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4672,
+            "max" : [
+                0.24160805344581604,
+                0.280057430267334,
+                0.3062461018562317
+            ],
+            "min" : [
+                -0.24160818755626678,
+                0,
+                -0.17697016894817352
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4672,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4672,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 27648,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 143,
+            "max" : [
+                0.2975742816925049,
+                0.41543418169021606,
+                0.36885976791381836
+            ],
+            "min" : [
+                -0.2975742816925049,
+                0.2789728343486786,
+                -0.22381217777729034
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 143,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 648,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 438132,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 438132,
+            "byteOffset" : 438132
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 292088,
+            "byteOffset" : 876264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 367248,
+            "byteOffset" : 1168352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56064,
+            "byteOffset" : 1535600
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 56064,
+            "byteOffset" : 1591664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37376,
+            "byteOffset" : 1647728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55296,
+            "byteOffset" : 1685104
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1716,
+            "byteOffset" : 1740400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1716,
+            "byteOffset" : 1742116
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1144,
+            "byteOffset" : 1743832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1296,
+            "byteOffset" : 1744976
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1746272,
+            "uri" : "Cupa Saddle Leather Swivel Base Chair_Cycles.bin"
+        }
+    ]
+}
