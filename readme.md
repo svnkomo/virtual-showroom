@@ -1,16 +1,16 @@
-# Virtual Showroom Demo
+# VIRTUAL SHOWROOM DEMO
 
-## Setup
+## SETUP
 Download [Node.js](https://nodejs.org/en/download/).
 Run this followed commands:
 
 ``` bash
-# Install dependencies (only for the first time)
+### Install dependencies
 npm install
 
-# Run the local server at localhost:8080
+### Run the local server at localhost:8080
 npm run dev
 
-# Build for production in the dist/ directory
+### Build for production in the dist/ directory
 npm run build
 ```
