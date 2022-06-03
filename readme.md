@@ -2,7 +2,7 @@
 
 ## SETUP
 Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+Run these following commands:
 
 ``` bash
 ###Install dependencies
